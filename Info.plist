@@ -5,11 +5,21 @@
     <key>CFBundleExecutable</key>
     <string>TildeFix</string>
     <key>CFBundleIdentifier</key>
-    <string>com.local.TildeFix</string>
+    <string>com.boreadesign.TildeFix</string>
     <key>CFBundleName</key>
     <string>TildeFix</string>
     <key>CFBundleVersion</key>
-    <string>1.0</string>
+    <string>1.0.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+        <string>MacOSX</string>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
     <key>LSBackgroundOnly</key>
     <true/>
 </dict>
