@@ -20,7 +20,9 @@
     </array>
     <key>LSMinimumSystemVersion</key>
     <string>13.0</string>
-    <key>LSBackgroundOnly</key>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>LSUIElement</key>
     <true/>
 </dict>
 </plist>

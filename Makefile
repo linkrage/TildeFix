@@ -6,9 +6,10 @@ MACOS_DIR = $(CONTENTS_DIR)/MacOS
 .PHONY: build install clean uninstall
 
 build:
-	@mkdir -p $(MACOS_DIR)
+	@mkdir -p $(MACOS_DIR) $(CONTENTS_DIR)/Resources
 	swiftc -O TildeFix.swift -o $(MACOS_DIR)/$(APP_NAME)
 	cp Info.plist $(CONTENTS_DIR)/Info.plist
+	cp TildeFix.icns $(CONTENTS_DIR)/Resources/AppIcon.icns
 	codesign --force --sign - $(APP_DIR)
 	@echo "Built: $(APP_DIR)"
 

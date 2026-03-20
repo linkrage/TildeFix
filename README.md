@@ -50,23 +50,18 @@ make install
 
 ## Setup
 
-### Grant permissions
+On first launch, TildeFix guides you through 3 quick steps with a built-in setup wizard:
 
-TildeFix needs two permissions in **System Settings > Privacy & Security**:
+1. **Accessibility** — System Settings opens automatically, click `+` → find TildeFix → toggle ON
+2. **Input Monitoring** — same process, next settings page opens automatically
+3. **Login Items** — add TildeFix so it starts automatically after every reboot
 
-1. **Accessibility** — add `TildeFix.app`
-2. **Input Monitoring** — add `TildeFix.app`
-
-### Run
+Just run the app and follow the prompts:
 
 ```bash
 open ~/Applications/TildeFix.app       # if built from source
 open /Applications/TildeFix.app        # if installed via Homebrew
 ```
-
-### Start automatically on login (recommended)
-
-**System Settings > General > Login Items** → add `TildeFix.app`
 
 ## Uninstall
 
